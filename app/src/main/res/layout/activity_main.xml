@@ -144,7 +144,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:onClick="computeGrades"
-            android:text="COMPUTE GRADE" />
+            android:text="COMPUTE GRADES" />
 
     </RelativeLayout>
 
