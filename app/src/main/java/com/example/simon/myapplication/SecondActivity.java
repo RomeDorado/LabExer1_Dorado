@@ -24,10 +24,10 @@ public class SecondActivity extends AppCompatActivity {
         btn_Back = (Button) findViewById(R.id.btnBack);
 
         String RA = getIntent().getStringExtra("RawG");
-        tv_Raw.setText("Your RA is " + RA);
+        tv_Raw.setText("Your RA is- " + RA);
 
         String FG = getIntent().getStringExtra("FinalG");
-        tv_Final.setText("Your Final Grade is " + FG);
+        tv_Final.setText("Your Final Grade is- " + FG);
     }
     public void goBack(View view){
         Intent intent2 = new Intent(this, MainActivity.class);

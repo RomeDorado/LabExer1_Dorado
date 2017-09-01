@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             FG = "Failed";
 
         }else if(raw < 65 && raw >= 60){
-            FG = "3.0";
+            FG = "3.0!";
         }else if(raw <= 70 && raw > 65){
             FG = "2.75";
         }else if(raw <= 75 && raw > 70){
